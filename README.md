@@ -2,7 +2,7 @@
 ### Name: Iker Soto Picon
 ### NIU: 1565939
 ### DATASET: Android Permission Dataset
-### URL: [kaggle](https://www.kaggle.com/saurabhshahane/android-permission-dataset/code)
+### URL: [kaggle](https://www.kaggle.com/saurabhshahane/android-permission-dataset)
 
 ## Summary
 This dataset named Android Permission Dataset contains information about some android apps with their permissions and it classifies those apps into benign(0) or malware(1).
