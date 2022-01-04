@@ -1,0 +1,5 @@
+For cleaning and transforming the data, script generate_features.py must be used. Use the following command on your linux terminal:
+$ python3 src/generate_features.py
+
+For training machine learning model (s) using Light Gradient Boosting Machine, script train_model.py must be used. Use the following command on your linux terminal:
+$ python3 src/train_model.py
