@@ -1,0 +1,25 @@
+The bellow mentioned python package dependencies must be installed and/or imported depending on what the user is willing execute.
+If user wants to execute src code:
+  import pandas as pd
+  from sklearn.preprocessing import LabelEncoder
+  from pycaret.classification import *
+
+If user wants to execute the full jupyter notebook:
+  import pandas as pd
+  import matplotlib.pyplot as plt
+  import seaborn as sns
+  from sklearn.model_selection import train_test_split
+  from sklearn.preprocessing import LabelEncoder
+  import warnings
+  warnings.filterwarnings("ignore")
+  from pycaret.classification import *
+  from sklearn.ensemble import GradientBoostingClassifier
+  from sklearn.ensemble import RandomForestClassifier
+  import lightgbm as lgb
+  from sklearn.metrics import classification_report, confusion_matrix, plot_confusion_matrix
+  
+  
+To sum up, the main libraries used are:
+ - pandas: data vector and matrix operations.
+ - matplotlib and seaborn: graphics generation
+ - sklearn and pycaret: models, metrics and dataset split.
